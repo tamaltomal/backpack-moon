@@ -5,65 +5,334 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Backpack Moon</title>
     <link href="./css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header class="container mt-4">
-      <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-        <div class="container-fluid">
-          <a class="navbar-brand w-50" href="#"
-            ><img src="./images/logos/Logo.png" alt="" class="col-11"
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="collapse navbar-collapse justify-content-end"
-            id="navbarNav"
-          >
-            <ul class="navbar-nav">
-              <li class="nav-item ms-5 fw-bold">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item ms-5 fw-bold">
-                <a class="nav-link" href="#">Product</a>
-              </li>
-              <li class="nav-item ms-5 fw-bold">
-                <a class="nav-link" href="#">About Us</a>
-              </li>
-              <li class="nav-item ms-5 fw-bold">
-                <a class="nav-link" href="#">Contact Us</a>
-              </li>
-            </ul>
+    <header style="background-color: #fffce1">
+      <div class="top-section container pt-3">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+          <div class="container-fluid">
+            <a class="navbar-brand col-lg-4 col-md-8 col-sm-8 col-8" href="#"
+              ><img src="./images/logos/logo_1.png" alt="" class="w-100"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item ms-5 fw-bold">
+                  <a class="nav-link" href="#" style="color: #0a0038">Home</a>
+                </li>
+                <li class="nav-item ms-5 fw-bold">
+                  <a class="nav-link" href="#" style="color: #0a0038"
+                    >Product</a
+                  >
+                </li>
+                <li class="nav-item ms-5 fw-bold">
+                  <a class="nav-link" href="#" style="color: #0a0038"
+                    >About Us</a
+                  >
+                </li>
+                <li class="nav-item ms-5 fw-bold">
+                  <a class="nav-link" href="#" style="color: #0a0038"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </nav>
-      <div class="intro d-flex align-items-center">
-        <div class="description">
-          <h1>BACKPACK</h1>
-          <h1>MOON</h1>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem
-            molestias, itaque reiciendis.
-          </p>
-          <button class="btn btn-primary">Buy Now</button>
-        </div>
-        <div class="photo">
-          <img
-            src="./images/photos/intro-bag-sm.png"
-            alt=""
-            class="img-fluid"
-          />
+        </nav>
+        <div
+          class="intro d-flex align-items-center justify-content-between row mt-4 pb-5"
+        >
+          <div class="description footnote col-lg-5 col-md-5 col-sm-12 col-12">
+            <h1 style="font-size: 60px">BACKPACK</h1>
+            <h2 style="font-size: 60px">MOON</h2>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <a href="#" class="btn btn-primary"
+              ><i class="fa fa-cart-arrow-down" aria-hidden="true"></i> BUY
+              NOW</a
+            >
+          </div>
+          <div class="photo col-lg-5 col-md-5 col-sm-12 col-12">
+            <img
+              src="./images/photos/intro-bag-sm.png"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
         </div>
       </div>
     </header>
+    <main>
+      <section class="qualities container pb-4 mt-5 mb-4">
+        <div class="d-flex align-items-center justify-content-evenly row pt-5">
+          <div
+            class="card-items col-lg-5 col-md-10 col-sm-12 col-12 mb-5 justify-content-evenly"
+          >
+            <div
+              class="card mb-3 border border-white all-rounder shadow"
+              style="max-width: 540px"
+            >
+              <div class="row align-items-center justify-content-center g-0">
+                <div
+                  class="d-flex justify-content-center col-lg-4 col-md-4 col-sm-6 col-6 pt-2 pb-2"
+                >
+                  <img
+                    src="./images/logos/fit.png"
+                    alt="..."
+                    class="img-fluid w-50"
+                  />
+                </div>
+                <div
+                  class="justify-content-center col-lg-8 col-md-8 col-sm-12 col-12"
+                >
+                  <div class="card-body">
+                    <h5 class="card-title">Find the Perfect Fit</h5>
+                    <p class="card-text">
+                      Everybody is different, which is why we offer styles for
+                      every body.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="card mb-3 border border-white all-rounder shadow"
+              style="max-width: 540px"
+            >
+              <div class="row align-items-center g-0">
+                <div class="d-flex justify-content-center col-4">
+                  <img
+                    src="./images/logos/exchange.png"
+                    alt="..."
+                    class="img-fluid w-50"
+                  />
+                </div>
+                <div class="col-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Free Exchanges</h5>
+                    <p class="card-text">
+                      One of the many reasons you can shop with peace of mind.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="card mb-3 border border-white all-rounder shadow"
+              style="max-width: 540px"
+            >
+              <div class="row align-items-center g-0">
+                <div class="d-flex justify-content-center col-4">
+                  <img
+                    src="./images/logos/contact.png"
+                    alt="..."
+                    class="img-fluid w-50"
+                  />
+                </div>
+                <div class="col-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Contact Our Seller</h5>
+                    <p class="card-text">
+                      They are here to help you. That's quite literally what we
+                      pay them for.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="photo col-lg-5 col-md-12 col-sm-12 col-12 mb-5">
+            <img src="./images/logos/XMLID 1.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </section>
+      <section class="casual container pb-4 mt-5 mb-4">
+        <h1 class="mb-4">CASUAL BACKPACK</h1>
+        <div class="d-flex align-items-center justify-content-evenly row">
+          <div
+            class="card mb-3 border-white all-rounder shadow pt-1"
+            style="width: 20.5rem"
+          >
+            <img
+              src="./images/photos/casual_1.png"
+              class="card-img-top all-rounder mt-2"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Nike Sportswear Hayward</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up.
+              </p>
+              <div
+                class="footnote d-flex align-items-center justify-content-between"
+              >
+                <h2>$234</h2>
+                <a href="#" class="btn btn-primary"
+                  ><i class="fa fa-cart-arrow-down" aria-hidden="true"></i> BUY
+                  NOW</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="card mb-3 border border-white all-rounder shadow pt-1"
+            style="width: 20.5rem"
+          >
+            <img
+              src="./images/photos/casual_2.png"
+              class="card-img-top all-rounder mt-2"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">School backpack</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up.
+              </p>
+              <div
+                class="footnote d-flex align-items-center justify-content-between"
+              >
+                <h2>$234</h2>
+                <a href="#" class="btn btn-primary"
+                  ><i class="fa fa-cart-arrow-down" aria-hidden="true"></i> BUY
+                  NOW</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="card mb-3 border border-white all-rounder shadow pt-1"
+            style="width: 20.5rem"
+          >
+            <img
+              src="./images/photos/casual_3.png"
+              class="card-img-top all-rounder mt-2"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">CityLite Security Backpack</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up.
+              </p>
+              <div
+                class="footnote d-flex align-items-center justify-content-between"
+              >
+                <h2>$234</h2>
+                <a href="#" class="btn btn-primary"
+                  ><i class="fa fa-cart-arrow-down" aria-hidden="true"></i> BUY
+                  NOW</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="travel container pb-4 mt-5 mb-4">
+        <h1 class="mb-4">TRAVEL BACKPACK</h1>
+        <div class="d-flex align-items-center justify-content-evenly row">
+          <div
+            class="card mb-3 border border-white all-rounder shadow pt-1"
+            style="width: 20.5rem"
+          >
+            <img
+              src="./images/photos/travel_1.png"
+              class="card-img-top all-rounder all-rounder mt-2"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Travel Sport</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up.
+              </p>
+              <div
+                class="footnote d-flex align-items-center justify-content-between"
+              >
+                <h2>$234</h2>
+                <a href="#" class="btn btn-primary"
+                  ><i class="fa fa-cart-arrow-down" aria-hidden="true"></i> BUY
+                  NOW</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="card mb-3 border border-white all-rounder shadow pt-1"
+            style="width: 20.5rem"
+          >
+            <img
+              src="./images/photos/travel_2.png"
+              class="card-img-top all-rounder mt-2"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Jack Wolfskin West Highland</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up.
+              </p>
+              <div
+                class="footnote d-flex align-items-center justify-content-between"
+              >
+                <h2>$234</h2>
+                <a href="#" class="btn btn-primary"
+                  ><i class="fa fa-cart-arrow-down" aria-hidden="true"></i> BUY
+                  NOW</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="card mb-3 border border-white all-rounder shadow pt-1"
+            style="width: 20.5rem"
+          >
+            <img
+              src="./images/photos/travel_3.png"
+              class="card-img-top all-rounder mt-2"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Hiking Trekking Bag Camping</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up.
+              </p>
+              <div
+                class="footnote d-flex align-items-center justify-content-between"
+              >
+                <h2>$234</h2>
+                <a href="#" class="btn btn-primary"
+                  ><i class="fa fa-cart-arrow-down" aria-hidden="true"></i> BUY
+                  NOW</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <script src="./js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
